@@ -1,0 +1,1 @@
+export const URL_API_FETCH_INITIAL_DATA = 'http://localhost:5000/app/initial-data';
