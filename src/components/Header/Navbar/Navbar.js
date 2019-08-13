@@ -36,12 +36,12 @@ class Navbar extends Component {
                         </NavLink>
                         </div>
                         <ul className="navbar__rootMenu">
-                            <li className="navbar_rootMenuEntry">
+                            <li className="navbar__rootMenuEntry">
                                 <NavLink to="/" className="navbar__rootMenuLink navbar__rootMenuLink_active">
                                     Men
                                 </NavLink>
                             </li>
-                            <li className="navbar_rootMenuEntry">
+                            <li className="navbar__rootMenuEntry">
                                 <NavLink to="/" className="navbar__rootMenuLink navbar__rootMenuLink_active">
                                     Women
                                 </NavLink>
