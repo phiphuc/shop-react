@@ -1,27 +1,44 @@
+/**
+ * Layout Component.
+ * Placeholder fot the description
+ * @module Layout
+ */
 import React from 'react';
 import PropTypes from 'prop-types';
-import Header from '../Header/Header'
+import Header from '../Header/Header';
+//import FooterNavMenu from '../FooterNavMenu/FooterNavMenu';
+
 import './Layout.scss';
 
+/**
+ * PropTypes of the component
+ * @type {object}
+ */
+
 const propTypes = {
-    children: PropTypes.node.isRequired
+  /** Text message of the toast. */
+  children: PropTypes.node.isRequired,
 };
 
-const Layout = ({children}) => {
-    return (
-        <div className="layout">
-            <div className="layout__header">
-            <Header /> 
-            </div>
-            <div className="layout__content">
-                {children}
-            </div>
-            <div className="layout__footer">
-
-            </div>
-        </div>
-    )
-}
+/**
+ * General component description in JSDoc format. Markdown is *supported*.
+ */
+const Layout = ({ children }) => {
+  return (
+    <div className="layout">
+      <div className="layout__header">
+        <Header />
+      </div>
+      <div className="layout__content">
+        {children}
+      </div>
+      <div className="layout__footer">
+        {/* <FooterNavMenu/>  */}
+      </div>
+    </div>
+  );
+};
 
 Layout.propTypes = propTypes;
-export default Layout
+
+export default Layout;
