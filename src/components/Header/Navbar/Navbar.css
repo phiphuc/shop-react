@@ -1,0 +1,26 @@
+
+.bg-light { 
+    background-color: #ffffff !important;
+}
+
+.icon-user{
+    font-size: 30px;
+}
+
+.icon-cart{
+    font-size: 23px;
+}
+
+ul.navbar-nav {
+    margin-right: 25px;
+    margin-left: 60px;
+}
+
+a.nav-link {
+    position: relative;
+    transition: color .2s;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
