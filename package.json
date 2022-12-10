@@ -28,7 +28,7 @@
     "debug": "~2.6.9",
     "dotenv": "^6.2.0",
     "eslint-plugin-flowtype": "^3.10.3",
-    "express": "~4.16.0",
+    "express": "~4.17.3",
     "express-session": "^1.15.6",
     "g": "^2.0.1",
     "html-to-text": "^5.0.0",
